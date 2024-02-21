@@ -1,3 +1,4 @@
+
 # LAB <XX> : <Título>
 
 ## Enunciado:
@@ -12,8 +13,7 @@
 
 ## Artefatos:
 
-* Relatório
-* Scripts
-* Conjunto de dados
+* [Relatório](docs/README.md)
+* [Scripts](scripts)
+* [Conjunto de dados](scripts/dataset)
   
-
