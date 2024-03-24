@@ -1,3 +1,5 @@
 **/__pycache__
 .venv
 .env
+output/**
+output_v2/**
