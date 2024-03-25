@@ -86,13 +86,35 @@ Dos 1000 repositórios obtidos, 88% apresentaram valores satisfatórios e foram 
 | Problemas de configuração do projeto: |  Se o projeto não estiver configurado corretamente para ser analisado pela ferramenta CK, isso pode levar a problemas durante a análise do código-fonte e à geração de um arquivo CSV vazio. Por exemplo, se as configurações de caminho para o código-fonte ou para as ferramentas auxiliares estiverem incorretas, a ferramenta CK pode não conseguir acessar os arquivos necessários para realizar a análise. |
 | Limitações da ferramenta CK: |  Em alguns casos, a própria ferramenta CK pode ter limitações ou bugs que podem causar problemas durante a análise do código-fonte e levar à geração de um arquivo CSV vazio. Nesses casos, pode ser necessário atualizar para uma versão mais recente da ferramenta ou procurar por soluções alternativas. |
 
+### Tabela com Dados auxiliares
+
+| Métrica | Média | Máximo | Mínimo |
+| ----- | ----- | ----- | ----- |
+| Releases | 25.45 | 344 | 0 |
+| CBO | 5.19 | 13.89 | 0 |
+| LCOM | ?? | ?? | ?? |
+| DIT | 3734 | 1 | 25.6 |
+| LOC | ?? | ?? | ?? |
+
 ### Gráficos auxiliares
+
+<div align="center" style="display:flex;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1bc88527-7bdf-49f4-9831-f98a79ad28c1" alt="violin releases" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1616508a-b0c7-4ce7-b662-5221143669c9" alt="violin CBO" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02//assets/90854173/1976a528-802f-44e8-bee0-24ec9f4c2920" alt="violin LCOM" style="width: 40%; height: auto;">
+ <img src="" alt="violin LOC" style="width: 40%; height: auto;">
+
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/dfe4aa34-b504-40cd-983b-c89dd1db8cd9" alt="bar DIT" style="width: 80%; height: auto;">
+
+</div>
+
+### Análises
 
 -  **RQ 01.** Qual a relação entre a popularidade dos repositórios e as suas características de qualidade?
 
 <div align="center" style="display: flex;">
 <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5866a376-37b1-47d4-9de6-84f53fcefbc5" alt="scatter CBO x Estrelas" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/40cf124b-7897-4c03-a47f-de02b28295dc" alt="scatter LCOM x Estrelas" style="width: 40%; height: auto;">
+<img src="" alt="scatter LCOM x Estrelas" style="width: 40%; height: auto;">
 <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/53eb280b-e3ad-47f5-9f96-d6b4f24b05cb" alt="scatter DIT x Estrelas" style="width: 40%; height: auto;">
 <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5f2e6819-086b-4a2a-87f1-923107c8a26c" alt="scatter DIT [0 - 100] x Estrelas" style="width: 40%; height: auto;">
 </div>
@@ -100,10 +122,10 @@ Dos 1000 repositórios obtidos, 88% apresentaram valores satisfatórios e foram 
 - **RQ 02.** Qual a relação entre a maturidade do repositórios e as suas características de qualidade ?
 
 <div align="center">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0e87de9d-4ead-4616-82d8-db83379b5ff9" alt="scatter CBO x Estrelas" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/c1dc3b34-c3d9-43df-8a9c-435b473541b3" alt="scatter LCOM x Estrelas" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/f079ab99-b1d7-41e6-850a-94388d109fe3" alt="scatter DIT x Estrelas" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/318abb90-d7f0-4b6b-84ee-bde4728317e0" alt="scatter DIT [0 - 100] x Estrelas" style="width: 40%; height: auto;">
+<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0e87de9d-4ead-4616-82d8-db83379b5ff9" alt="scatter CBO x anos" style="width: 40%; height: auto;">
+<img src="" alt="scatter LCOM x anos" style="width: 40%; height: auto;">
+<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/f079ab99-b1d7-41e6-850a-94388d109fe3" alt="scatter DIT x anos" style="width: 40%; height: auto;">
+<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/318abb90-d7f0-4b6b-84ee-bde4728317e0" alt="scatter DIT [0 - 100] x anos" style="width: 40%; height: auto;">
 </div>
 
 
