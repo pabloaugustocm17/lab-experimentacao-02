@@ -52,8 +52,8 @@ Para cada questão de pesquisa, será realizado a comparação entre as caracter
 
 Para análise das métricas de popularidade, atividade e maturidade, serão coletadas informações dos repositórios mais populares em Java, utilizando o GraphQL do GitHub. Para medição dos valores de qualidade, utilizaremos uma ferramenta de análise estática de código anteriormente citada, [CK](https://github.com/mauricioaniche/ck).
 
-Essa ferramenta gera diferentes arquivos .csv, porém para este trabalho será considerado apenas o arquivo *class.csv* que contém as métricas CBO, DIT e LCOM. Além disso, como essas
-métricas são para classes e não para o sistema como todo, será utilizado a média dos resultados CBO e LCOM e o maior valor para DIT de cada sistema para as análises.
+Essa ferramenta gera diferentes arquivos .csv, porém para este trabalho será considerado apenas o arquivo *class.csv* que contém as métricas LOC, CBO, DIT e LCOM. Além disso, como essas
+métricas são para classes e não para o sistema como todo, será utilizado o somatório dos LOCs das classes, a média dos resultados CBO e LCOM e o maior valor para DIT de cada sistema para as análises.
 
 <a id='hipoteses'></a>
 ## Hipóteses informais
@@ -77,7 +77,7 @@ Hipótese: A relação entre o tamanho do repositório (medido em linhas de cód
 <a id='resultado'></a>
 ## Resultados
 
-Dos 1000 repositórios obtidos, 88% apresentaram valores satisfatórios e foram considerados para as análises subsequentes. Cerca de 9% correspondiam a recursos educacionais, tutoriais ou conteúdos similares, e, portanto, não continham códigos a serem avaliados. Por fim, os 11% restantes foram identificados com falhas na execução da ferramenta CK. Esses potenciais erros são exemplificados a seguir:
+Dos 1000 repositórios obtidos, 96,4% apresentaram valores satisfatórios e foram considerados para as análises subsequentes. Cerca de 1,3% correspondiam a recursos educacionais, tutoriais ou conteúdos similares, e, portanto, não continham códigos a serem avaliados. Por fim, os 2,3% restantes foram identificados com falhas na execução da ferramenta CK. Esses potenciais erros são exemplificados a seguir:
 
 | **tipo** | **Descrição** |
 |-------------|-------------|
@@ -86,15 +86,15 @@ Dos 1000 repositórios obtidos, 88% apresentaram valores satisfatórios e foram 
 | Problemas de configuração do projeto: |  Se o projeto não estiver configurado corretamente para ser analisado pela ferramenta CK, isso pode levar a problemas durante a análise do código-fonte e à geração de um arquivo CSV vazio. Por exemplo, se as configurações de caminho para o código-fonte ou para as ferramentas auxiliares estiverem incorretas, a ferramenta CK pode não conseguir acessar os arquivos necessários para realizar a análise. |
 | Limitações da ferramenta CK: |  Em alguns casos, a própria ferramenta CK pode ter limitações ou bugs que podem causar problemas durante a análise do código-fonte e levar à geração de um arquivo CSV vazio. Nesses casos, pode ser necessário atualizar para uma versão mais recente da ferramenta ou procurar por soluções alternativas. |
 
-### Tabela com Dados auxiliares
+### Tabela com dados auxiliares
 
 | Métrica | Média | Máximo | Mínimo |
 | ----- | ----- | ----- | ----- |
-| Releases | 25.45 | 344 | 0 |
-| CBO | 5.19 | 13.89 | 0 |
-| LCOM | ?? | ?? | ?? |
-| DIT | 3734 | 1 | 25.6 |
-| LOC | ?? | ?? | ?? |
+| Releases | 26.29 | 344 | 0 |
+| CBO | 5.24 | 13.89 | 0 |
+| LCOM | 154652.74 | 438.49 | 0 |
+| DIT | 3734 | 1 | 28.52 |
+| LOC | 83756.40 | 4455723.0 | 2 |
 
 ### Gráficos auxiliares
 
