@@ -98,14 +98,19 @@ Dos 1000 repositórios obtidos, 96,4% apresentaram valores satisfatórios e fora
 
 ### Gráficos auxiliares
 
+Nesta seção contem gráficos que auxiliam nas interpretações e tomadas de decisões para as análises das perguntas apresentadas nas [hipóteses](#hipoteses)
+
 <div align="center" style="display:flex;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1bc88527-7bdf-49f4-9831-f98a79ad28c1" alt="violin releases" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1616508a-b0c7-4ce7-b662-5221143669c9" alt="violin CBO" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02//assets/90854173/1976a528-802f-44e8-bee0-24ec9f4c2920" alt="violin LCOM" style="width: 40%; height: auto;">
- <img src="" alt="violin LOC" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1bc88527-7bdf-49f4-9831-f98a79ad28c1" alt="violin releases" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1616508a-b0c7-4ce7-b662-5221143669c9" alt="violin CBO" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/6fb8f03d-feeb-4c8f-88ee-d0751c0ac0f6" alt="violin LOC" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0521a651-a87d-4439-8bc8-e017e04da371" alt="violin LOC [0, 900000]" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/20b34051-f05e-40ab-b7d3-07373d95e3aa" alt="violin LCOM" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/a282c6bc-df2f-496c-905a-74884820e7c2" alt="violin LCOM [0, 10000]" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/639dfcbb-21ee-4f98-9b11-114dbb948379" alt="violin DIT" style="width: 30%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/8edc37bd-b4b8-4804-b75f-039fecb7bcfa" alt="violin LCOM [0, 200]" style="width: 30%; height: auto;">
 
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/dfe4aa34-b504-40cd-983b-c89dd1db8cd9" alt="bar DIT" style="width: 80%; height: auto;">
-
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/dfe4aa34-b504-40cd-983b-c89dd1db8cd9" alt="bar DIT" style="width: 50%; height: auto;">
 </div>
 
 ### Análises
