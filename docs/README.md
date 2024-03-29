@@ -8,6 +8,7 @@
 - [Coleta e Análise de Dados](#coletaDados)
 - [Hipóteses informais](#hipoteses)
 - [Resultados](#resultados)
+- [Conclusão](#conclusao)
 
 <a id='introducao'></a>
 ## Introdução
@@ -100,18 +101,12 @@ Dos 1000 repositórios obtidos, 96,4% apresentaram valores satisfatórios e fora
 
 Nesta seção contem gráficos que auxiliam nas interpretações e tomadas de decisões para as análises das perguntas apresentadas nas [hipóteses](#hipoteses)
 
-<div align="center" style="display:flex;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1bc88527-7bdf-49f4-9831-f98a79ad28c1" alt="violin releases" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1616508a-b0c7-4ce7-b662-5221143669c9" alt="violin CBO" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/6fb8f03d-feeb-4c8f-88ee-d0751c0ac0f6" alt="violin LOC" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0521a651-a87d-4439-8bc8-e017e04da371" alt="violin LOC [0, 900000]" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/20b34051-f05e-40ab-b7d3-07373d95e3aa" alt="violin LCOM" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/a282c6bc-df2f-496c-905a-74884820e7c2" alt="violin LCOM [0, 10000]" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/639dfcbb-21ee-4f98-9b11-114dbb948379" alt="violin DIT" style="width: 30%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/8edc37bd-b4b8-4804-b75f-039fecb7bcfa" alt="violin LCOM [0, 200]" style="width: 30%; height: auto;">
 
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/dfe4aa34-b504-40cd-983b-c89dd1db8cd9" alt="bar DIT" style="width: 50%; height: auto;">
-</div>
+| | | |
+|:-:|:-:|:-:|
+|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1bc88527-7bdf-49f4-9831-f98a79ad28c1" alt="violin releases" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/1616508a-b0c7-4ce7-b662-5221143669c9" alt="violin CBO" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/6fb8f03d-feeb-4c8f-88ee-d0751c0ac0f6" alt="violin LOC" align="left" height="auto" width="300">|
+|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0521a651-a87d-4439-8bc8-e017e04da371" alt="violin LOC [0, 900000]" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/20b34051-f05e-40ab-b7d3-07373d95e3aa" alt="violin LCOM" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/a282c6bc-df2f-496c-905a-74884820e7c2" alt="violin LCOM [0, 10000]" align="left" height="auto" width="300">|
+|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0187a229-7964-4821-81e1-c418fb967c62" alt="violin DIT" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/748df72f-6e64-4068-ad43-d2200116bb14" alt="violin DIT [0, 200]" align="left" height="auto" width="300">| <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/dfe4aa34-b504-40cd-983b-c89dd1db8cd9" alt="bar DIT" align="left" height="auto" width="300"> |
 
 ### Análises
 
@@ -119,33 +114,51 @@ Nesta seção contem gráficos que auxiliam nas interpretações e tomadas de de
 
 -  **RQ 01.** Qual a relação entre a popularidade dos repositórios e as suas características de qualidade?
 
-<div align="center" style="display: flex;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5866a376-37b1-47d4-9de6-84f53fcefbc5" alt="scatter CBO x Estrelas" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/6e8e023f-5fa4-46b6-9c96-7a1827e0d632" alt="scatter LCOM x Estrelas" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5f2e6819-086b-4a2a-87f1-923107c8a26c" alt="scatter DIT [0 - 100] x Estrelas" style="width: 40%; height: auto;">
-</div>
+||||
+|:-:|:-:|:-:|
+|<img  src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5866a376-37b1-47d4-9de6-84f53fcefbc5" alt="scatter CBO x Estrelas" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/6e8e023f-5fa4-46b6-9c96-7a1827e0d632" alt="scatter LCOM x Estrelas" align="left" height="auto" width="300">| <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5f2e6819-086b-4a2a-87f1-923107c8a26c" alt="scatter DIT [0 - 100] x Estrelas" align="left" height="auto" width="300" >|
+
+A análise dos gráficos revela que não existe uma relação direta entre a qualidade do código e a popularidade. Pelo contrário, nota-se uma convergência dos repositórios em direção à média geral das métricas   
+examinadas neste estudo.
 
 - **RQ 02.** Qual a relação entre a maturidade do repositórios e as suas características de qualidade ?
 
-<div align="center">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0e87de9d-4ead-4616-82d8-db83379b5ff9" alt="scatter CBO x anos" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/60869094-52be-4f4f-b674-6103780a5c29" alt="scatter LCOM x anos" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/318abb90-d7f0-4b6b-84ee-bde4728317e0" alt="scatter DIT [0 - 100] x anos" style="width: 40%; height: auto;">
-</div>
+||||
+|:-:|:-:|:-:|
+|<img  src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0e87de9d-4ead-4616-82d8-db83379b5ff9" alt="scatter CBO x anos" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/60869094-52be-4f4f-b674-6103780a5c29" alt="scatter LCOM x anos" align="left" height="auto" width="300">| <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/318abb90-d7f0-4b6b-84ee-bde4728317e0" alt="scatter DIT [0 - 100] x anos" align="left" height="auto" width="300" >|
 
+Da mesma forma que a relação entre as métricas e a popularidade não é óbvia, também não há uma ligação clara entre a maturidade de um projeto e sua qualidade. Os gráficos revelam agrupamentos de projetos recentes, com até 2 anos de idade, que apresentam métricas semelhantes aos projetos com 10 anos ou mais. No entanto, é importante notar que, para o DIT, é possível observar valores mais elevados em projetos mais maduros, o que pode indicar uma possível perda de qualidade. O mesmo padrão se aplica à métrica LCOM, com um número maior de repositórios com mais de 6 anos de idade exibindo uma média relativamente alta na métrica LCOM.
 
 - #### **RQ 03.** Qual a relação entre a atividade dos repositórios e as suas características de qualidade?
 
-<div align="center">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/de5720fd-74dd-4e98-bd45-c8ca26522cf1" alt="scatter CBO x releases" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/31854c1e-a8c8-4eaa-b3fe-7c710e1bbc07" alt="scatter LCOM x releases" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/53b38d48-b39b-475d-a054-5e762f734261" alt="scatter DIT [0 - 100] x releases" style="width: 40%; height: auto;">
-</div>
+||||
+|:-:|:-:|:-:|
+|<img  src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/de5720fd-74dd-4e98-bd45-c8ca26522cf1" alt="scatter CBO x releases" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/31854c1e-a8c8-4eaa-b3fe-7c710e1bbc07" alt="scatter LCOM x releases" align="left" height="auto" width="300">| <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/53b38d48-b39b-475d-a054-5e762f734261" alt="scatter DIT [0 - 100] x releases" align="left" height="auto" width="300" >|
+
+Não há uma correlação entre a atividade de um repositório e sua qualidade inicialmente.
+
+- No que diz respeito ao CBO, o gráfico revela que repositórios ativos frequentemente compartilham métricas semelhantes com repositórios menos movimentados. No entanto, este último grupo exibe uma proporção maior de projetos com métricas mais baixas, sugerindo potencialmente uma melhor qualidade em comparação aos mais ativos.
+
+- Quanto ao LCOM, observa-se uma tendência oposta à do CBO. Há uma proporção significativa de repositórios com métricas mais elevadas, indicando falta de coesão nos projetos, especialmente entre aqueles com menor número de lançamentos. No entanto, essa categoria representa uma minoria quando consideramos o panorama completo.
+
+- O comportamento do DIT assemelha-se ao do LCOM.
+   
 
 - #### **RQ 04.** Qual a relação entre o tamanho dos repositórios e as suas características de qualidade?
 
-<div align="center">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/e0482ee2-afc1-4e7d-ab70-87ef92ef05e2" alt="scatter CBO x LOC" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/51252c7e-ae40-484d-887c-a2ce1c12ba91" alt="scatter LCOM x LOC" style="width: 40%; height: auto;">
- <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/ba7f1a8d-2b08-4e91-84d8-c3b30628b576" alt="scatter DIT [0 - 100] x LOC" style="width: 40%; height: auto;">
-</div>
+||||
+|:-:|:-:|:-:|
+|<img  src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/e0482ee2-afc1-4e7d-ab70-87ef92ef05e2" alt="scatter CBO x LOC" align="left" height="auto" width="300">|<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/51252c7e-ae40-484d-887c-a2ce1c12ba91" alt="scatter LCOM x LOC" align="left" height="auto" width="300">| <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/ba7f1a8d-2b08-4e91-84d8-c3b30628b576" alt="scatter DIT [0 - 100] x LOC" align="left" height="auto" width="300" >|
+
+É possível estabelecer uma associação entre o aumento do número de linhas de código e os valores das métricas no primeiro momento. No entanto, após analisar os repositórios, destacam-se os seguintes pontos:
+
+- CBO: De fato, os repositórios com menor quantidade de linhas de código tendem a ter um CBO menor. Porém, projetos com um CBO mais elevado também mostraram ter uma quantidade pequena de linhas de código em comparação com outros projetos. Além disso, os projetos com a maior quantidade de linhas apresentaram um valor semelhante à média geral.
+
+- O comportamento do LCOM assemelha-se ao do CBO. No entanto, aqui é possível observar alguns projetos com um número de linhas maior do que a média, mas com valores de LCOM relativamente maiores.
+
+- Quanto ao DIT, é possível observar uma tendência de manter-se entre o intervalo de 0 e 20, independentemente da quantidade de linhas.
+
+<a id="conclusao"></a>
+## Conslusão
+
+Em suma, os resultados das análises dos repositórios destacam a complexidade das relações entre a atividade, a maturidade e a qualidade do código. Enquanto algumas métricas, como CBO e LCOM, revelam padrões que sugerem uma possível influência do tamanho do código na qualidade, outras, como DIT, mostram uma tendência mais consistente e independente da quantidade de linhas. Essas descobertas ressaltam a importância de uma avaliação abrangente e contextualizada da qualidade do código, levando em consideração não apenas métricas isoladas, mas também o contexto e os objetivos específicos de cada projeto.
