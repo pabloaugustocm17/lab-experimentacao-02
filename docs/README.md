@@ -115,27 +115,37 @@ Nesta seção contem gráficos que auxiliam nas interpretações e tomadas de de
 
 ### Análises
 
+**Definições:** Para uma mlehor visualização do gráfico de dispersões, foi limitado o eixo de x de alguns deles. Os intervalos poderão ser observados tanto pela escala do eixo quanto pelo título:
+
 -  **RQ 01.** Qual a relação entre a popularidade dos repositórios e as suas características de qualidade?
 
 <div align="center" style="display: flex;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5866a376-37b1-47d4-9de6-84f53fcefbc5" alt="scatter CBO x Estrelas" style="width: 40%; height: auto;">
-<img src="" alt="scatter LCOM x Estrelas" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/53eb280b-e3ad-47f5-9f96-d6b4f24b05cb" alt="scatter DIT x Estrelas" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5f2e6819-086b-4a2a-87f1-923107c8a26c" alt="scatter DIT [0 - 100] x Estrelas" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5866a376-37b1-47d4-9de6-84f53fcefbc5" alt="scatter CBO x Estrelas" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/6e8e023f-5fa4-46b6-9c96-7a1827e0d632" alt="scatter LCOM x Estrelas" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/5f2e6819-086b-4a2a-87f1-923107c8a26c" alt="scatter DIT [0 - 100] x Estrelas" style="width: 40%; height: auto;">
 </div>
 
 - **RQ 02.** Qual a relação entre a maturidade do repositórios e as suas características de qualidade ?
 
 <div align="center">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0e87de9d-4ead-4616-82d8-db83379b5ff9" alt="scatter CBO x anos" style="width: 40%; height: auto;">
-<img src="" alt="scatter LCOM x anos" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/f079ab99-b1d7-41e6-850a-94388d109fe3" alt="scatter DIT x anos" style="width: 40%; height: auto;">
-<img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/318abb90-d7f0-4b6b-84ee-bde4728317e0" alt="scatter DIT [0 - 100] x anos" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/0e87de9d-4ead-4616-82d8-db83379b5ff9" alt="scatter CBO x anos" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/60869094-52be-4f4f-b674-6103780a5c29" alt="scatter LCOM x anos" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/318abb90-d7f0-4b6b-84ee-bde4728317e0" alt="scatter DIT [0 - 100] x anos" style="width: 40%; height: auto;">
 </div>
 
 
 - #### **RQ 03.** Qual a relação entre a atividade dos repositórios e as suas características de qualidade?
 
+<div align="center">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/de5720fd-74dd-4e98-bd45-c8ca26522cf1" alt="scatter CBO x releases" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/31854c1e-a8c8-4eaa-b3fe-7c710e1bbc07" alt="scatter LCOM x releases" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/53b38d48-b39b-475d-a054-5e762f734261" alt="scatter DIT [0 - 100] x releases" style="width: 40%; height: auto;">
+</div>
+
 - #### **RQ 04.** Qual a relação entre o tamanho dos repositórios e as suas características de qualidade?
 
-
+<div align="center">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/e0482ee2-afc1-4e7d-ab70-87ef92ef05e2" alt="scatter CBO x LOC" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/51252c7e-ae40-484d-887c-a2ce1c12ba91" alt="scatter LCOM x LOC" style="width: 40%; height: auto;">
+ <img src="https://github.com/pabloaugustocm17/lab-experimentacao-02/assets/90854173/ba7f1a8d-2b08-4e91-84d8-c3b30628b576" alt="scatter DIT [0 - 100] x LOC" style="width: 40%; height: auto;">
+</div>
